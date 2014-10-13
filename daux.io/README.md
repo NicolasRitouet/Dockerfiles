@@ -4,6 +4,6 @@ This Dockerfile will download the latest version of daux.io and will deploy it o
 
 ## Usage
 ````
-docker build -t username/my-php-app .
-docker run -d -p 80:80 username/my-php-app
+docker pull nicolasritouet/daux.io
+docker run -d -p 80:80 nicolasritouet/daux.io
 ````
