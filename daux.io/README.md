@@ -8,6 +8,11 @@ docker pull nicolasritouet/daux.io
 docker run -d -p 80:80 nicolasritouet/daux.io
 ````
 
+You can now test the deployment:
+````
+curl http://localhost
+````
+
 
 ## To fix
 - add htaccess to have clean urls
