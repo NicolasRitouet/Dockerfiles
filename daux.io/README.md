@@ -7,3 +7,10 @@ This Dockerfile will download the latest version of daux.io and will deploy it o
 docker pull nicolasritouet/daux.io
 docker run -d -p 80:80 nicolasritouet/daux.io
 ````
+
+
+## To fix
+- add htaccess to have clean urls
+- add a volume for the /docs folder
+- add nginx (??)
+- improve documentation
