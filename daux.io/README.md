@@ -19,4 +19,3 @@ curl http://localhost
 - add a volume for the /docs folder
 - add nginx (??)
 - improve documentation
-- add some tests (https://github.com/tutumcloud/tutum-docker-mariadb/blob/master/circle.yml)
